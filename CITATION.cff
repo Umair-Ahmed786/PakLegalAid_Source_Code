@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this system, please cite it."
+authors:
+  - family-names: Ahmed
+    given-names: Umair
+title: PakLegalAid Source Code
+year: 2025
+url: https://github.com/Umair-Ahmed786/PakLegalAid_Source_Code
