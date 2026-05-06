@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this system, please cite it."
 authors:
-  - family-names: Ahmed
+  - family-names: Umair
     given-names: Umair
 title: PakLegalAid Source Code
 year: 2025
