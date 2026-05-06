@@ -54,12 +54,6 @@ per_device_train_batch_size=2, gradient_accumulation_steps=4,
 max_steps=60, learning_rate=2e-4, optim="adamw_8bit"
 ```
 
-**Prompt Template:**
-```
-<|system|> You are a helpful legal expert.
-<|user|> {query}
-<|assistant|>
-```
 
 ---
 
@@ -97,7 +91,7 @@ API docs will be available at `http://localhost:8000/docs`.
 
 ```bibtex
 @article{yourpaper2025,
-  title   = {Your Paper Title Here},
+  title   = {Paper Title Here},
   author  = {Author Names},
   journal = {PLOS ONE},
   year    = {2025},
