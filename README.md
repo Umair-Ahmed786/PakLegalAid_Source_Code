@@ -104,3 +104,17 @@ API docs will be available at `http://localhost:8000/docs`.
 ## Acknowledgements
 
 [Unsloth](https://github.com/unslothai/unsloth) · [Hugging Face](https://huggingface.co/) · [LangChain](https://www.langchain.com/) · [FAISS](https://faiss.ai/) · Lawyer experts who curated the Q&A dataset
+
+
+## Classification results (Tables 1-3 of the revised paper)
+
+- `evaluate_classifiers.py` trains and evaluates all classifiers on one stratified
+  80/20 split (seed 42; 1,454 test queries) and reports precision, recall and F1
+  for the legal class. Results: `results_classification.csv`, `run_log.txt`.
+- `linear_probe.py` produces the "without fine-tuning" rows of Table 3
+  (frozen encoder with a logistic regression head).
+  Results: `linear_probe_results.csv`, `linear_probe_log.txt`.
+
+These scripts replace the earlier notebook script
+`classification_experiments_on_various_models.py`, which produced the results
+of the previous version of the paper.
