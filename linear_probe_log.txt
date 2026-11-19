@@ -1,0 +1,15 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "n_rows_in_csv": 8000,
+  "n_total": 7267,
+  "n_train": 5813,
+  "n_test": 1454,
+  "test_legal": 798,
+  "test_nonlegal": 656,
+  "seed": 42,
+  "max_len": 128,
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1",
+  "sklearn": "1.6.1"
+}

@@ -1,0 +1,7 @@
+model,embedding,primary,accuracy,precision_legal,recall_legal,f1_legal,TN,FP,FN,TP,seconds,checkpoint
+DistilBERT (linear probe),mean-pooled,True,98.4869325997249,98.86649874055415,98.37092731829574,98.61809045226131,647,9,13,785,49.5,distilbert-base-uncased
+DistilBERT (linear probe),first-token,False,98.2806052269601,98.49435382685068,98.37092731829574,98.43260188087774,644,12,13,785,50.1,distilbert-base-uncased
+RoBERTa (linear probe),mean-pooled,True,99.31224209078404,100.0,98.74686716791979,99.36948297604036,656,0,10,788,58.1,FacebookAI/roberta-base
+RoBERTa (linear probe),first-token,False,99.65612104539203,100.0,99.37343358395991,99.68573224387178,656,0,5,793,58.7,FacebookAI/roberta-base
+Legal-BERT (linear probe),mean-pooled,True,97.86795048143053,97.8776529338327,98.24561403508771,98.06128830519074,639,17,14,784,68.7,nlpaueb/legal-bert-base-uncased
+Legal-BERT (linear probe),first-token,False,95.2544704264099,95.73400250941029,95.6140350877193,95.67398119122257,622,34,35,763,70.2,nlpaueb/legal-bert-base-uncased
